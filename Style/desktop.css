@@ -1,4 +1,27 @@
 @media only screen and (min-width: 1280px) and (max-width: 1439px) {
+    .button {
+        background-color: #4bb4b4;
+        color: white;
+        padding: 15px 30px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .button:hover {
+        background-color: #429a9a;
+    }
+    .containerTH{
+        text-align: center;
+        padding: 50px;
+    }
+    .TituloH{
+        text-align: center;
+    }
+    .DescrH{
+        text-align: center;
+    }
     * {
         margin: 0;
         padding: 0;
@@ -7,6 +30,17 @@
 
     body {
         font-family: Arial, sans-serif;
+        background-image:
+                radial-gradient(circle,  rgba(247, 147, 76, 0.2) 140px, transparent 101px),
+                radial-gradient(circle,  rgba(247, 147, 76, 0.2) 190px, transparent 101px),
+                radial-gradient(circle,  rgba(159, 107, 160, 0.2) 190px, transparent 101px),
+                radial-gradient(circle,  rgba(159, 107, 160, 0.2) 155px, transparent 101px);
+        background-position:
+                2vh -15vw,
+                93vh -7vw,
+                50vh 50vw,
+                -72vh 9vw
+        background-repeat: no-repeat;
     }
 
     nav {
@@ -61,6 +95,7 @@
         color: black; /* Color del ícono de menú hamburguesa */
         cursor: pointer;
     }
+
 
 }
 @media only screen and (min-width: 1440px) and (max-width: 1919px) {
@@ -140,6 +175,17 @@
 
     body {
         font-family: Arial, sans-serif;
+        background-image:
+                radial-gradient(circle,  rgba(247, 147, 76, 0.2) 300px, transparent 101px),
+                radial-gradient(circle,  rgba(247, 147, 76, 0.2) 300px, transparent 101px),
+                radial-gradient(circle,  rgba(159, 107, 160, 0.2) 300px, transparent 101px),
+                radial-gradient(circle,  rgba(159, 107, 160, 0.2) 300px, transparent 101px);
+        background-position:
+                1vh 1vw,
+                1vh 1vw,
+                1vh 1vw,
+                1vh 1vw;
+        background-repeat: no-repeat;
     }
 
     nav {
@@ -194,6 +240,7 @@
         color: black; /* Color del ícono de menú hamburguesa */
         cursor: pointer;
     }
+
 
 }
 
